@@ -1,3 +1,1 @@
----
-title: Yakiee's Blog
----
+# Yakiee's Blog
