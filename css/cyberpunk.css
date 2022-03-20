@@ -10302,7 +10302,19 @@ a {
   color: var(--text-highlight);
 }
 a:hover {
+  background-color: var(--night-card-color);
   color: var(--night-text-color);
+}
+a.navbar-item:focus,
+.navbar-link:focus,
+a.navbar-item:focus-within,
+.navbar-link:focus-within,
+a.navbar-item:hover,
+.navbar-link:hover,
+a.navbar-item.is-active,
+.navbar-link.is-active {
+  background-color: var(--night-card-color);
+  color: var(--text-highlight);
 }
 .ml-0,
 .mx-0 {
@@ -11041,8 +11053,7 @@ a.article-nav-next span {
 .navbar-main .navbar-start .navbar-item.is-active,
 .navbar-main .navbar-start .navbar-item:hover {
   color: var(--text-highlight);
-  border-radius: 10px 60px;
-  background-color: rgba(255,255,255,0.75);
+  background-color: var(--night-card-color);
 }
 .navbar-main .navbar-end {
   justify-content: flex-end;
@@ -11051,8 +11062,6 @@ a.article-nav-next span {
 .navbar-main .navbar-end .navbar-item.is-active,
 .navbar-main .navbar-end .navbar-item:hover {
   color: var(--text-highlight);
-  border-radius: 10px 60px;
-  background-color: rgba(255,255,255,0.75);
 }
 .navbar-main .navbar-logo {
   color: var(--night-alert-color);
