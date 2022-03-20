@@ -1,0 +1,80 @@
+/* ---------------------------------
+ *              Card
+ * --------------------------------- */
+.card-content
+    .level
+        .title
+            color: var(--night-alert-color)
+
+    .title
+        color: var(--night-text-color)
+        
+    .level-start 
+        color: var(--night-alert-color)
+    
+    .level-item 
+        &:hover 
+            // background-color: var(--shine-1)
+        
+    a.level
+        &:hover, &:focus 
+            background-color: transparentify(#FFFFFF, #201E2C, 0.75)
+
+            // background-color: transparentify(var(--night-alert-color), 0.3)
+            .level-item 
+                color: var(--ninght-card-color)
+
+            .tag 
+                background-color: var(--ninght-card-color)
+                color: var(--night-alert-color)
+            
+    .button.is-primary 
+        background-color: var(--text-highlight)
+        box-shadow: var(--btn-shadow) 0 1px 0, var(--btn-shadow-1) 0 1px 0 inset
+        
+        &:hover
+            background-color: transparentify(#8795FF, #201E2C, 0.85)
+            transition-duration: 0.1s
+
+    article.media
+        .title a
+            &:hover
+                color: var(--text-highlight)
+    
+
+.card 
+    overflow: visible
+    // background-color: var(--ningt-card-color)
+    background-color: var(--ninght-card-color)
+    border-radius: $card-radius
+    color: var(--night-text-color)
+
+    & + .card, & + .column-right-shadow 
+        margin-top: 1.5rem
+    
+
+    .card-image 
+        overflow: hidden
+        border-top-left-radius: $card-radius
+        border-top-right-radius: $card-radius
+    
+
+    .media + .media 
+        border: none
+        margin-top: 0
+    
+
+    .menu 
+        color: var(--night-alert-color)
+    
+
+
+for i in range(1, 6) 
+    .content h{i} 
+        color: var(--night-alert-color)
+    
+
+article.card-content 
+    .link-muted
+        &:hover
+            color: var(--text-highlight) !important

@@ -1,0 +1,96 @@
+.card-content .level .title {
+    color: var(--night-alert-color)
+}
+
+.card-content .title {
+    color: var(--night-text-color)
+}
+
+.card-content .level-start {
+    color: var(--night-alert-color)
+}
+
+.card-content a.level:hover,
+.card-content a.level:focus {
+    background-color: rgba(255, 255, 255, 0.75)
+}
+
+.card-content a.level:hover .level-item,
+.card-content a.level:focus .level-item {
+    color: var(--ninght-card-color)
+}
+
+.card-content a.level:hover .tag,
+.card-content a.level:focus .tag {
+    background-color: var(--ninght-card-color);
+    color: var(--night-alert-color)
+}
+
+.card-content .button.is-primary {
+    background-color: var(--text-highlight);
+    box-shadow: var(--btn-shadow) 0 1px 0, var(--btn-shadow-1) 0 1px 0 inset
+}
+
+.card-content .button.is-primary:hover {
+    background-color: rgba(153, 170, 255, 0.85);
+    transition-duration: .1s
+}
+
+.card-content article.media .title a:hover {
+    color: var(--text-highlight)
+}
+
+.card {
+    overflow: visible;
+    background-color: var(--ninght-card-color);
+    border-radius: $card-radius;
+    color: var(--night-text-color)
+}
+
+.card+.card,
+.card+.column-right-shadow {
+    margin-top: 1.5rem
+}
+
+.card .card-image {
+    overflow: hidden;
+    border-top-left-radius: $card-radius;
+    border-top-right-radius: $card-radius
+}
+
+.card .media+.media {
+    border: none;
+    margin-top: 0
+}
+
+.card .menu {
+    color: var(--night-alert-color)
+}
+
+.content h1 {
+    color: var(--night-alert-color)
+}
+
+.content h2 {
+    color: var(--night-alert-color)
+}
+
+.content h3 {
+    color: var(--night-alert-color)
+}
+
+.content h4 {
+    color: var(--night-alert-color)
+}
+
+.content h5 {
+    color: var(--night-alert-color)
+}
+
+.content h6 {
+    color: var(--night-alert-color)
+}
+
+article.card-content .link-muted:hover {
+    color: var(--text-highlight) !important
+}
