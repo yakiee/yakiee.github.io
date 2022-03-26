@@ -29,6 +29,7 @@ class Profile extends Component {
             followTitle,
             socialLinks
         } = this.props;
+
         return <div class="card widget" data-type="profile">
             <div class="card-content">
                 <nav class="level">
