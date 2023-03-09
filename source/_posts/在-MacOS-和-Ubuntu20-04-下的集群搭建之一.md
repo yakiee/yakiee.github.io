@@ -1,7 +1,7 @@
 ---
-title: 在 MacOS 和 Ubuntu20.04 下的集群搭建
+title: 在 MacOS 和 Ubuntu20.04 下的集群搭建之一
 date: 2022-03-25 21:05:43
-tags: NFS 
+tags: NFS OS
 ---
 
 ## 系统环境
@@ -12,7 +12,7 @@ tags: NFS
 
 ### 虚拟机的网络设置
 网络源为默认的 Shared Network (共享网络)
-![PD network config!](networkConfig.png)
+![PD network config](/source/_posts/在-MacOS-和-Ubuntu20-04-下的集群搭建/networkConfig.png)
 
 ### 查看主机的IP地址
 
