@@ -1843,6 +1843,11 @@ hexo-pagination@^2.0.0:
   resolved "https://registry.yarnpkg.com/hexo-pagination/-/hexo-pagination-2.0.0.tgz#41283f7daab56ea29f2a4c52f9b91e0cbf8a4bdb"
   integrity sha512-ZZQli5UwFWTW6bJNF4zwp2PCeGsipgoPxadud8+cPPxvygTP5GjTS5eVWcUTcfEaCluP+O1maxZCCWmYQoJkiQ==
 
+hexo-pagination@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/hexo-pagination/-/hexo-pagination-3.0.0.tgz#b98b050bbddff25ae646e3d00ad607ac6ae77ea7"
+  integrity sha512-8oo1iozloZo7TojPVYg4IxL3SJKCBdSJ908fTlIxIK7TWJIKdYnQlW31+12DBJ0NhVZA/lZisPObGF08wT8fKw==
+
 hexo-renderer-ejs@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/hexo-renderer-ejs/-/hexo-renderer-ejs-2.0.0.tgz#56e0c3de5f6b0e1e68b923c65a7c8bfe9ff715eb"
